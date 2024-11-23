@@ -1,0 +1,40 @@
+/* styles.css */
+body {
+     font-family: Arial, sans-serif;
+     margin: 20px;
+   }
+   
+   .resume {
+     max-width: 800px;
+     margin: 0 auto;
+     background: #f4f4f4;
+     padding: 20px;
+     border-radius: 8px;
+   }
+   
+   h1 {
+     text-align: center;
+     color: #333;
+   }
+   
+   h2 {
+     color: #333;
+     font-size: 1.5em;
+     margin-bottom: 10px;
+   }
+   
+   .editable {
+     background-color: #fff;
+     border: 1px solid #ddd;
+     border-radius: 5px;
+     padding: 10px;
+     margin-bottom: 10px;
+     min-height: 30px;
+     outline: none;
+   }
+   
+   .editable[contenteditable="true"]:focus {
+     border-color: #3498db;
+     background-color: #eef7ff;
+   }
+   

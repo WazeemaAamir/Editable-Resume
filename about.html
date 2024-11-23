@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Editable Resume</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="resume">
+    <h1>Editable Resume</h1>
+
+    <!-- Personal Info -->
+    <div class="section" id="personal-info">
+      <h2>Personal Information</h2>
+      <div class="editable" contenteditable="true" id="name">John Doe</div>
+      <div class="editable" contenteditable="true" id="email">john.doe@example.com</div>
+      <div class="editable" contenteditable="true" id="phone">+1234567890</div>
+    </div>
+
+    <!-- Education -->
+    <div class="section" id="education">
+      <h2>Education</h2>
+      <div class="editable" contenteditable="true" id="education-details">BSc in Computer Science, XYZ University</div>
+    </div>
+
+    <!-- Skills -->
+    <div class="section" id="skills">
+      <h2>Skills</h2>
+      <div class="editable" contenteditable="true" id="skills-details">JavaScript, TypeScript, HTML, CSS</div>
+    </div>
+
+    <!-- Work Experience -->
+    <div class="section" id="work-experience">
+      <h2>Work Experience</h2>
+      <div class="editable" contenteditable="true" id="work-details">Software Developer at ABC Corp.</div>
+    </div>
+    
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
